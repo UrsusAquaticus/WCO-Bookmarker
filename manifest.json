@@ -1,0 +1,17 @@
+{
+    "name": "WCO Bookmarker",
+
+    "version": "1.0",
+
+    "manifest_version": 2,
+
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+
+    "permissions": [
+        "bookmarks",
+        "webNavigation"
+     ]
+}
